@@ -5,7 +5,7 @@ RUN pip install streamlit
 #Set working directory
 WORKDIR /var
 #COPY file
-copy etl.py
+copy etl.py /var/
 #expose streamlit
 EXPOSE 8501
 #runn streamlit app
