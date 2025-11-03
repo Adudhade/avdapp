@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Create Container') {
             steps {
-                bat 'docker run -d -p 8501:8501 myimage'
+                bat 'docker run -d -p 8502:8501 myimage'
             }
         }
     }
