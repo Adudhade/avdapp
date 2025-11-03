@@ -9,4 +9,4 @@ copy etl.py /var/
 #expose streamlit
 EXPOSE 8501
 #runn streamlit app
-CMD["streamlit","run","etl.py"]
+CMD ["streamlit","run","etl.py"]
